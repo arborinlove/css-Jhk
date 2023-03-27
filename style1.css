@@ -1,0 +1,55 @@
+@charset "utf-8";
+
+
+.box2 {
+    text-align: center;
+    line-height: 2.0;
+    font-size: 13px;
+    background-color: beige;
+}
+h1 {
+    background-color: rgb(74, 56, 48);
+    font-family: '나눔스퀘어라운드', '맑은 고딕', 'sans-serif';
+    color: #fff;
+    text-align: center;
+    font-size: 1.7em;
+    line-height: 1.5;
+}
+
+.box2 > span {
+    font-size: 11px;
+}
+#txt1 {
+    text-decoration: underline;
+}
+#txt2 {
+    color:deeppink
+}
+a {
+    color:#fff;
+    background-color: deeppink;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+}
+.box1 {
+    background-color: rgb(149, 228, 255);
+}
+.box1 > h2 {
+    text-align: center;
+    text-decoration: underline;
+    color: rgb(117, 116, 116);
+}
+.box1 > h3 {
+    text-align: right;
+    background-color: orange;
+}
+.txt3 {
+    background-color: rgb(255, 138, 155);
+}
+#txt4 {
+    font-weight: bold;
+}
+#txt5 {
+    color: red;
+}
