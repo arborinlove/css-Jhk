@@ -1,0 +1,126 @@
+@charset "utf-8";
+
+
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Noto+Sans+KR&family=Quicksand&display=swap');
+
+body::-webkit-scrollbar {
+    width:15px;
+  }
+  body::-webkit-scrollbar-track {
+    background-color: #000;
+  } 
+   body::-webkit-scrollbar-thumb {
+    background-color: #fff;
+    border: 1px solid 000;
+    border-radius: 5px;
+   }
+
+  /* common */
+main {
+    background-color: #cacaca;
+    text-align: center;
+    height: 3000px;
+    padding-top: 150px;
+    font-weight: bold;
+    font-size: 50px;
+
+}
+
+ a {
+    text-decoration: none;
+    }
+
+ menu {
+    list-style: none;
+    }
+
+li {
+    display: inline-block;
+}
+
+/* header */
+
+header {
+  background-color: #ddd8bd;
+  position: fixed;
+  width: 100%; height: 110px;
+}
+header nav {
+    background-color: #ddd8bd;
+    font-family: 'Noto Sans KR', '맑은 고딕', 돋움, sans-serif;
+    font-weight: 400;
+    text-align: center;
+
+    max-width: 1200px; min-width: 960px;
+    height: 110px;
+    position: fixed;
+    left: 0; right: 0;
+    margin: auto;
+
+}
+
+/* 로고 */
+header h1 {
+    background-color: #000;
+    opacity: 20%;
+    font-weight: 700;
+    font-size: 30px;
+    width: 120px; height: 60px;
+    line-height: 60px;
+    position: absolute;
+    left: 10px; bottom: 10px;
+}
+
+header h1 a {
+    color: #fff;
+}
+/* 유틸 */
+header .utill {
+    background-color: #cacaca;
+    position: absolute;
+    right: 10px; top: 0;
+    padding: 2px 4px ;
+}
+header .utill li {
+ color: #000;
+ font-size: 10px;
+ vertical-align: middle;
+ padding: 0 4px;
+}
+header .utill a {
+    color: #000;
+    font-size: 16px;
+}
+header .utill a:hover {
+    color: #9c1717;
+}
+/* 메뉴 */
+.gnb {
+    font-family: 'Lobster', 'cursive', serif;
+    background-color: #000;
+    position: absolute;
+    padding-left: 0;
+    margin: 0;
+    
+    position: absolute;
+    right: 10px; bottom: 10px;
+  }
+  header .gnb li a {
+    color: #d4cc9d;
+    font-size: 26px;
+    text-transform: capitalize;
+    display: block;
+    padding: 10px 28px;
+  }
+
+  header .gnb li a:hover {
+    background-color: #fff;
+  }
+
+  #box {
+    position: fixed;
+    top: 0px;
+    background-color: #ddd8bdb;
+    width: 100%; height: 110px;
+}
+  
