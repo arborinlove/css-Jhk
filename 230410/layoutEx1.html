@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>layoutEx1</title>
+    <style>
+        .container {
+            border :1px solid #000;
+            width: 1040px;
+            margin: 0 auto;
+            overflow: hidden;
+        }
+        .container h1 {
+            border :inherit;
+            margin: 20px;
+            height: 100px;
+            padding: 10px 10px;
+            line-height: 100px;
+        }
+        .container .box {
+            border :inherit;
+            margin: 0 30px 20px 20px;
+            padding: 10px;
+            width: 600px;
+            box-sizing: border-box;
+            float: left;
+        }
+        .container .sidebar {
+            background-color: #000;
+            color: #fff;
+            padding: 20px;
+            width: 370px;
+            box-sizing: border-box;
+            float: left;
+        }
+        .container .footer {
+            border :inherit;
+            margin: 20px;
+            padding: 10px 10px;
+            clear: both;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>2열 레이아웃</h1>
+        <div class="box">
+            <h2> 본문</h2>
+            <p>위에 노루, 파란 했던 사랑과 까닭입니다. 어머니 이름을 가을로 못 멀리 하나에 위에 애기 봅니다. 이름을 이름을 내 그리고 하나의 못 다하지 이름과, 책상을 봅니다. 릴케 덮어 위에 이름과, 경, 까닭입니다. 딴은 별 아침이 써 패, 까닭입니다. 노새, 계집애들의 새겨지는 경, 멀리 까닭입니다. 이 않은 다 내 있습니다.</p>
+
+            <p>별 걱정도 묻힌 북간도에 딴은 까닭이요, 노루, 봅니다. 동경과 가득 내린 너무나 이제 하나에 한 까닭입니다. 많은 라이너 벌써 가득 있습니다. 하나의 오면 사랑과 라이너 거외다. 시와 했던 소학교 이름과 봅니다. 별빛이 위에도 않은 그러나 보고, 이름과, 애기 이름자를 딴은 있습니다.</p>
+            
+        </div>
+        <div class="sidebar">
+            <h2>사이드 바</h2>
+            <ul>
+                <li>별 걱정도 묻힌 북간도에 딴은 까닭이요, 노루, 봅니다. 동경과 가득 내린 너무나 이제 하나에 한 까닭입니다. </li>
+            </ul>
+        </div>
+        <div class="footer">
+            <h2>바닥글</h2>
+            <p>이 헌법시행 당시의 법령과 조약은 이 헌법에 위배되지 아니하는 한 그 효력을 지속한다.</p>
+        </div>
+    </div>
+</body>
+</html>
