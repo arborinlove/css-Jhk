@@ -45,19 +45,36 @@ header .font {
 header nav {
     background-color:#ffcd38;
     height: 42px;
+    padding: 0;
+    margin: 0;
+    position: relative;
 }
 header menu {
     list-style: none;
     margin: 0;
     padding: 0;
+    position: absolute;
+    left: 0;
 }
 header menu li {
     float: left;
     font-size: 18px;
     color: #7d1e6a;
-    padding: 7px 21px;
+    padding: 7px 0px;
+    width: 82px;
     font-weight: bold;
+    text-align: center;
 }
+header menu li:nth-child(1) {
+    width: 70px;
+}
+header menu li:nth-child(2) {
+    width: 70px;
+}
+header menu li:nth-child(4) {
+    width: 90px;
+}
+
 header menu li:hover {
     background-color: #fab133;
 }
