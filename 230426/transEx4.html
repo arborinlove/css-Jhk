@@ -25,7 +25,7 @@
             transition: 1s;
         }
         input[type=checkbox]:checked ~ .box2 {
-            transform: translateY(0);
+            transform: translateY(0); /* 0으로 해야 맞게 멈추던데 왜그럴까요? */
         }
         input[type=checkbox]:checked ~ .box1 {
            height: 0;
